@@ -32,8 +32,9 @@ html{
 	vertical-align: middle
 }
 
-
-
+#list{
+  text-align: left;
+}
 
 p{
   display: block;
