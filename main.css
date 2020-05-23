@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
 
 * {
 font-family: 'Montserrat';
@@ -10,4 +12,5 @@ html{
 
 p{
   line-height: 150%;
+  font-family: 'Noto Sans KR', sans-serif;
 }
