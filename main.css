@@ -14,10 +14,24 @@ html{
 }
 
 h1{
+  display: block;
+  text-align: center;
   font-weight: 800;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.list{
+  position: relative;
+  margin: auto;
+  left: 45%;
 }
 
 p{
+  display: block;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 5%;
   line-height: 150%;
   font-family: 'Gothic A1', sans-serif;
 }
