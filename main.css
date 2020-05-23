@@ -8,6 +8,11 @@ font-family: 'Gothic A1', sans-serif;
 font-weight: 200;
 }
 
+h1{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 800;
+}
+
 html{
   background-size: auto;
   line-height: 150%;
