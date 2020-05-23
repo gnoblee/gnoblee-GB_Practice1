@@ -29,8 +29,9 @@ html{
 
 .head .content {
 	display: inline-block;
-	vertical-align: middle
+  vertical-align: middle
 }
+
 .head .blank {
 	display: inline-block;
 	width: 0;
