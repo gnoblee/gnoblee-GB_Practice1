@@ -13,6 +13,19 @@ h1{
   font-weight: 800;
 }
 
+h3{
+  line-height: 150%;
+}
+
+p {
+  line-height: 150%;
+  margin-top: 10%;
+}
+
+.backtomain {
+  margin-top: 20%;
+}
+
 html{
   background-size: auto;
   line-height: 150%;
@@ -31,7 +44,6 @@ html{
 	display: inline-block;
   vertical-align: middle
 }
-
 
 .head .blank {
 	display: inline-block;

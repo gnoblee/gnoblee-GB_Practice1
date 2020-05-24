@@ -1,5 +1,5 @@
 var index = 0;
-var colors = [ "red", "orange", "yellow", "green", "blue", "Indigo", "purple"];
+var colors = [ "red", "orange", "yellow", "green", "blue", "navy", "purple"];
 var max = colors.length;
 var timerId;
 
