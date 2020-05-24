@@ -19,13 +19,9 @@ function changeColor(){
         }
 }
 
-var index = 0;
-var color = ["gray"];
 
 function start1(){
-            if(index !=max){
-            document.body.style.backgroundColor = color[index];           
+            document.body.style.backgroundColor = "gray";           
             index++;
             alert("배경색 변경완료");
         }
-    }
