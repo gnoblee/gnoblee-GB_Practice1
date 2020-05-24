@@ -21,22 +21,11 @@ function changeColor(){
 
 var index = 0;
 var color = ["gray"];
-var max = colors.length;
-var timerId;
 
 function start1(){
-    timerId = setInterval(changeColor, 50);
-}
-
-function changeColor(){     
-        if( index != max){
-            console.log(index);
+            if(index !=max){
             document.body.style.backgroundColor = color[index];           
             index++;
-        }
-        else{           
-            clearInterval( timerId);
             alert("배경색 변경완료");
         }
-}
-           
+    }
