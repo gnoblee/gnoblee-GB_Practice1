@@ -9,8 +9,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="/granim.js-2.0.0/dist/granim.min.js"></script>
     <script src="main.js"></script>
     <script src="gradient.js"></script>
     <title>GB_Practice1</title>
@@ -25,7 +25,12 @@
                 <div slyle="text-aline= center;">
                     <input type="button" value="Background_1" onclick="start1()"/><br>
                     <input type="button" value="Background_2" onclick="start2()"/><br>
-                    <input type="button" value="Background_3" onclick="start3()"/><br>
+                    <div class="canvas-interactive-wrapper">
+                        <canvas id="canvas-interactive"></canvas>
+                        <div class="cta-wrapper">
+                            <a href="#default-state" id="default-state-cta" class="active">Background_3</a>
+                        </div>
+                    </div>
                 </div>
             </h3>
             <p>
@@ -37,6 +42,5 @@
         </span>
         <span class="blank"></span>
     </div>
-    <div id="gradient"/>
 </body>
 </html>
